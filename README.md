@@ -50,5 +50,5 @@
 - **src/main/java/searchengine**: Все классы проекта.
 - **src/main/resources/templates**: HTML-шаблон.
 - **src/main/resources/static/assets**: Ресурсы (шрифты, изображения, скрипты).
-- **src/main/resources/application.yaml**: Конфигурационный файл.
+- **src/main/application.yaml**: Конфигурационный файл.
 
