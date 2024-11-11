@@ -1,0 +1,30 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: username
+    password: password
+    url: jdbc:mysql://localhost:3310/search_engine?useSSL=false&requireSSL=false&allowPublicKeyRetrieval=true
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    open-in-view: false
+
+logging.level.root: INFO
+
+indexing-settings:
+  sites:
+#        - url: https://www.lenta.ru
+#          name: Лента
+        - url: https://www.skillbox.ru
+          name: Skillbox
+#        - url: https://www.playback.ru
+#          name: PlayBack
+#        - url: https://www.romantic56.ru
+#          name: Романтик
